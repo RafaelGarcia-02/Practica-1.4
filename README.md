@@ -26,7 +26,9 @@ Practica1.2/
 
 ## Requisitos Previos
 
-- Servidor Linux con acceso root o permisos sudo
+- Servidor Linux con acceso root o permisos sudo ( en nuestro caso uso de AWS EC2)
+![alt text](img/1.png)
+![alt text](img/2.png)
 - Conexión a internet para descargar paquetes
 - Git instalado (si no está, el script install_lamp.sh lo instala)
 
@@ -214,9 +216,9 @@ Después de ejecutar ambos scripts, verifica que todo funciona:
 
 3. **Acceder a la aplicación**
    ```bash
-   curl http://localhost
-   # O abre en navegador: http://tu-servidor-ip
+   abre en navegador: http://tu-servidor-ip
    ```
+   ![alt text](img/3.png)
 
 4. **Ver logs si hay problemas**
    ```bash
